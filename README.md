@@ -1,5 +1,4 @@
-scripts2kb-lineage
-**From legacy job schedules to actionable knowledge.**  
+**scripts2kb-lineage**
 This project provides a generalized framework for transforming raw scheduler/script exports into a **searchable Knowledge Base (KB)** and **execution lineage graph**, with explainability baked in.
 
 ---
