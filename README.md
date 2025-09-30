@@ -1,10 +1,10 @@
-c1# scripts2kb-lineage
+scripts2kb-lineage
 **From legacy job schedules to actionable knowledge.**  
 This project provides a generalized framework for transforming raw scheduler/script exports into a **searchable Knowledge Base (KB)** and **execution lineage graph**, with explainability baked in.
 
 ---
 
-c2#Features
+Features
 - **Parsing & Enrichment**
   - Extracts units, scripts, parameters, references.
   - Translates multilingual labels into English.
@@ -17,11 +17,11 @@ c2#Features
   - Indexed for fast search and filtering.
 - **Lineage Graph**
   - Nodes: units & scripts.
-  - Edges: `unit → script` (execution), `unit → unit` (dependencies).
+  - Edges: unit → script (execution), unit → unit (dependencies).
   - Exported as:
-    - `kb_lineage.graphml` (for Gephi/Cytoscape)
-    - `nodes.csv` (node attributes)
-    - `edges.csv` (relations)
+    - kb_lineage.graphml (for Gephi/Cytoscape)
+    - nodes.csv (node attributes)
+    - edges.csv (relations)
 - **Privacy-Safe**
   - Only structure and metadata are retained.
   - No private dataset contents are exposed.
